@@ -6,7 +6,7 @@ TARGET = xeyes
 debug:
 	@echo "XEPHYR_LOC : $(XEPHYR_LOC)"
 	@echo "XEPHYR: $(XEPHYR)"
-  @echo "TARGET: $(TARGET)"
+	@echo "TARGET: $(TARGET)"
 
 run:
 	echo "exec $(TARGET)" > xinitrc
